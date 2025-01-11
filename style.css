@@ -1,0 +1,222 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    margin:0px;
+}
+.welcome{
+    background-color: rgb(185 231 244);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 250px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main_content{
+    margin: auto;
+    width: 1200px;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.frame_promotion{
+    padding:10px;
+    width:33.33%;   
+}
+
+.big_boxes_pad{
+    display: none;
+}
+
+.big_boxes_mobile{
+    display: none;
+} 
+
+.nav_burger{
+    display: none;
+}
+
+
+
+@media (max-width:1920px){
+    .big_boxes_desktop{
+        display: block;
+    }
+
+    .big_boxes_pad{
+        display: none;
+    }
+
+    .nav_burger{
+        display: none;
+    }
+}
+
+@media (max-width:1200px){
+    .main_content{
+        margin: auto;
+        width: 90%;
+        /* background-color: rgb(110, 234, 15); */
+    }
+    .small_boxes{
+        flex-wrap: wrap;
+    }
+    #frame_promotion_1{
+        width:50%;
+    }
+    #frame_promotion_2{
+
+        width:50%;
+    }
+    #frame_promotion_3{
+        width:100%;
+    }
+
+    .big_boxes_desktop{
+        display: none;
+    }
+
+    .big_boxes_pad{
+        display: block;
+    }
+
+    .nav_burger{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .main_content{
+        margin: auto;
+        width: 90%;
+        /* background-color: rgb(110, 234, 15); */
+    }
+    .small_boxes{
+        flex-wrap: wrap;
+    }
+    #frame_promotion_1{
+        width:100%;
+    }
+    #frame_promotion_2{
+
+        width:100%;
+    }
+    #frame_promotion_3{
+        width:100%;
+    }
+
+    .big_boxes_desktop{
+        display: none;
+    }
+
+    .big_boxes_pad{
+        display: none;
+    }
+
+    .big_boxes_mobile{
+        display: block;
+    }
+
+    .nav_items{
+        display: none;
+    }
+    .nav_burger{
+        display: block;
+    }
+}
+
+
+.pic_title{
+    background-color: rgba(83, 237, 83, 0.5);
+    position: absolute;      /* Absolute positioning of the div */
+    bottom: 0;                   /* Place div at the top of the container */
+    left: 0;                  /* Place div at the left of the container */
+}
+
+.wide_frame1{
+    padding:10px;
+}
+
+
+
+.text_promotion{
+    background-color:rgba(185 231 244);
+    padding:10px;
+    
+}
+
+.small_box{
+    padding:10px;
+}
+
+
+.big_boxes{
+    
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.pic_wide{
+    background-image: url("img.jpg");
+    /* Ensure the image covers the div */
+    background-size: cover;   
+    /* Center the background image */
+    background-position: center;  
+    position: relative;
+}
+
+.pic_basic_frame{
+    padding:10px;
+    
+}
+
+.pic_basic{
+    height:200px;
+    background-image: url("img.jpg");
+    /* Ensure the image covers the div */
+    background-size: cover;   
+    /* Center the background image */
+    background-position: center;  
+    position: relative;
+    background-clip: padding-box;
+}
+
+.star-icon {
+    color: gold; /* Color of the star icon */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.line-text {
+    width: 100%;
+    background-color: rgba(127, 225, 212, 0.5);;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.popup {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
