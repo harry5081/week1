@@ -5,6 +5,10 @@ html{
 body{
     margin:0px;
 }
+
+.navbar{
+    margin:10px;
+}
 .welcome{
     background-color: rgb(185 231 244);
     display: flex; 
@@ -13,11 +17,13 @@ body{
     height: 250px;
     font-weight: bold;
     font-size: 40px;
+    
 }
 
 .main_content{
     margin: auto;
     width: 1200px;
+    margin-top: 10px;
     /* background-color: rgb(255, 0, 0); */
 }
 
